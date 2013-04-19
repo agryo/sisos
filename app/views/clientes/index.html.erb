@@ -1,0 +1,43 @@
+<h1>Lista de Clientes</h1>
+<a href="<%=new_cliente_path %>" class="btn btn-link" ><b>Adicionar Cliente</b><i class="icon-plus-sign"></i></a>
+<a href="ordems" class="btn btn-link" ><b>Ordens de Serviços</b><i class="icon-plus-sign"></i></a>
+<table cellpadding="5" cellspacing="0" class="table">
+  <tr>
+    <th>Nome</th>
+    <th>Cpf</th>
+    <th>Endereco</th>
+    <th>Cep</th>
+    <th>Cidade</th>
+    <th>Telefone</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% 
+odd_or_even = 0
+@clientes.each do |cliente|
+odd_or_even = 1 -odd_or_even
+%>
+  <tr valign="top" class="ListLine<%=odd_or_even%>">
+    <td><%= cliente.nome %></td>
+    <td><%= cliente.cpf %></td>
+    <td><%= cliente.endereco %></td>
+    <td><%= cliente.cep %></td>
+    <td><%= cliente.cidade %></td>
+    <td><%= cliente.telefone %></td>
+	
+
+    <td class="ListActions">
+    <%= link_to 'Mostrar', cliente %></br>
+    <%= link_to 'Editar', edit_cliente_path(cliente) %></br>
+    <%= link_to 'Apagar', cliente, method: :delete, data: { confirm: 'Tem certeza?' } %></br>
+	</td>
+	
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

@@ -1,0 +1,34 @@
+<h1>Lista de Ordens de Serviços</h1>
+<a href="<%=new_ordem_path %>" class="btn btn-link" ><b>Adicionar Ordens de Serviços</b><i class="icon-plus-sign"></i></a>
+<table cellpadding="5" cellspacing="0" class="table">
+  <tr>
+    <th>Cliente</th>
+    <th>Maquina</th>
+    <th>Pecas</th>
+    <th>Observacoes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% 
+odd_or_even = 0
+@ordems.each do |ordem| 
+odd_or_even = 1 -odd_or_even
+%>
+  <tr valign="top" class="ListLine<%=odd_or_even%>">
+    <td><%= ordem.cliente.nome %></td>
+    <td><%= ordem.maquina %></td>
+    <td><%= ordem.pecas %></td>
+    <td><%= ordem.observacoes %></td>
+	
+    <td><%= link_to 'Mostrar', ordem %></br>
+    <%= link_to 'Editar', edit_ordem_path(ordem) %></br>
+    <%= link_to 'Apagar', ordem, method: :delete, data: { confirm: 'Are you sure?' } %></br>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

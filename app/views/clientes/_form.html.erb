@@ -1,0 +1,42 @@
+<%= form_for(@cliente) do |f| %>
+  <% if @cliente.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cliente.errors.count, "error") %> prohibited this cliente from being saved:</h2>
+
+      <ul>
+      <% @cliente.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field" >
+    
+    <%= f.text_field :nome , :placeholder=>"nome" , :class=>"input-block-level "  %>
+	
+  </div>
+  <div class="field">
+    
+    <%= f.number_field :cpf  , :placeholder=>"CPF" , :class=>"input-block-level" %>
+  </div>
+  <div class="field">
+   
+    <%= f.text_field :endereco , :placeholder=>"Endereço" , :class=>"input-block-level" %>
+  </div>
+  <div class="field">
+   
+    <%= f.number_field :cep , :placeholder=>"Cep" , :class=>"input-block-level" %>
+  </div>
+  <div class="field">
+
+    <%= f.text_field :cidade , :placeholder=>"Cidade" , :class=>"input-block-level" %>
+  </div>
+  <div class="field">
+
+    <%= f.text_field :telefone , :placeholder=>"Telefone" , :class=>"input-block-level" %>
+  </div>
+  <div class="actions">
+    <button class="btn btn-large btn-primary" type="submit">Adicionar</button>
+  </div>
+<% end %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cliente: 
+  maquina: MyString
+  pecas: MyString
+  observacoes: MyString
+
+two:
+  cliente: 
+  maquina: MyString
+  pecas: MyString
+  observacoes: MyString
