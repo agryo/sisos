@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Projeto4</title>
+  <title>Projeto SISOS</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+		<a class="brand" href="/">Inicio</a>
+		<% if admin_signed_in? || usuario_signed_in? %>
+			<ul class="nav">
+				<li class="active"><a href="/ordems">Ordens</a></li>
+				<li class="active"><a href="/clientes">Clientes</a></li>
+			</ul>	
+		<%end%>
+      
+   
+      <p class="navbar-text pull-right">
+        <% if admin_signed_in? %>
+          Logado como <strong><%= current_admin.email %></strong>.
+          <%= link_to 'Editar Conta', edit_admin_registration_path, :class => 'navbar-link' %> |
+          <%= link_to "Logout", destroy_admin_session_path, method: :delete, :class => 'navbar-link'  %>
+		  | Privilegio: Administrador
+        <% elsif usuario_signed_in? %>
+          Logado como <strong><%= current_usuario.email %></strong>.
+          <%= link_to 'Editar Conta', edit_usuario_registration_path, :class => 'navbar-link' %> |
+          <%= link_to "Logout", destroy_usuario_session_path, method: :delete, :class => 'navbar-link'  %>
+			| Privilegio: Usuario
+        <% end %>
+      </p>
+    </div>
+  </div>
+</div>
+<br/>
 
 <%= yield %>
 

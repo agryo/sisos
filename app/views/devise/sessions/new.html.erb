@@ -1,0 +1,16 @@
+
+
+<%= form_for(resource,:html=>{:class=>"form-signin"}, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+    <div>
+  <h2>Entrar</h2>
+  
+  <%= f.email_field :email, :autofocus => true, :placeholder=>"Email" , :class=>"input-block-level input-xlarge"  %></div>
+  
+  <div><%= f.password_field :password, :placeholder=>"Senha" , :class=>"input-block-level input-xlarge"%></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div class="linha"><%= f.check_box :remember_me %></div><div class="linha2"><%= f.label :lembre_me %></div>
+  <% end -%>
+
+  <div><%= f.submit "Logar-se", :class=>"btn btn-large btn-primary"  %></div>
+<% end %>

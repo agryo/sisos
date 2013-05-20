@@ -1,5 +1,26 @@
 Projeto4::Application.routes.draw do
+  get "funcionario/index"
+
+  get "gerente/index"
+  get "gerente/pendentes"
+	get "gerente/funcionarios"
+	get "gerente/destroy"
+  get "principal/index"
+  
+  root :to => "principal#index"
+
+  devise_for :usuarios
+  resources :usuarios
+
+
+  devise_for :admins
+  
+  #, :controllers => { :sessions => "admins/sessions" }
+
   resources :ordems
+  
+  devise_for :usuarios, :path => "auth", :path_names => { :sign_in => 'login', :sign_out => 'logout', :password => 'secret', :confirmation => 'verification', :unlock => 'unblock', :registration => 'register', :sign_up => 'cmon_let_me_in' }
+
 
 
   resources :clientes

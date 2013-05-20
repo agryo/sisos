@@ -1,5 +1,4 @@
-<h1>Lista de Ordens de Serviços</h1>
-<a href="<%=new_ordem_path %>" class="btn btn-link" ><b>Adicionar Ordens de Serviços</b><i class="icon-plus-sign"></i></a>
+<a href="/gerente/index" class="btn btn-link" ><b>Voltar</b></a>
 <table cellpadding="5" cellspacing="0" class="table">
   <tr>
     <th>Cliente</th>
@@ -22,13 +21,7 @@ odd_or_even = 1 -odd_or_even
     <td><%= ordem.pecas %></td>
     <td><%= ordem.observacoes %></td>
 	
-    <td><%= link_to 'Mostrar', ordem %></br>
-    <%= link_to 'Editar', edit_ordem_path(ordem) %></br>
-    <%= link_to 'Fechar Ordem', ordem, method: :delete, data: { confirm: 'A ordem já foi concluida?' } %></br>
+    
   </tr>
 <% end %>
 </table>
-
-<br />
-
-

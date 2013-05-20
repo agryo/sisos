@@ -1,0 +1,17 @@
+<div class="tituloPrincipal">
+<h1>Bem vindo ao Sistema SISOS </h1>
+</div>
+	
+<div class="menuPrincipal">
+	
+	<% if admin_signed_in? %>
+		<a  style="color: #FFF;" href="/gerente/index" class="btn btn-large btn-block btn-primary">Admin</a>
+	<% elsif usuario_signed_in? %>
+		<a  style="color: #FFF;" href="/funcionario/index" class="btn btn-large btn-block btn-primary">Usuario</a>
+	<%else%>
+		<a  style="color: #000;" href="/gerente/index" class="btn btn-large btn-block">Admin</a>
+		<a  style="color: #FFF;" href="/funcionario/index" class="btn btn-large btn-block btn-primary">Usuario</a>
+	<%end%>
+		
+		
+</div>

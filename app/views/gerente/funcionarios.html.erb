@@ -1,0 +1,22 @@
+<a href="/gerente/index" class="btn btn-link" ><b>Voltar</b></a>
+<table cellpadding="5" cellspacing="0" class="table">
+  <tr>
+    <th>Funcionario</th>
+	<th>ID</th>
+	<th>açao</th>
+  </tr>
+
+<% 
+odd_or_even = 0
+@usuarios.each do |usuario| 
+odd_or_even = 1 -odd_or_even
+%>
+  <tr valign="top" class="ListLine<%=odd_or_even%>">
+    <td><%= usuario.email %></td>
+	<td><%= usuario.id %></td>
+	<td><%= link_to 'Deletar', usuario, method: :delete, data: { confirm: 'Ctz?' } %></td>
+	
+    
+  </tr>
+<% end %>
+</table>
