@@ -1,8 +1,12 @@
 Projeto4::Application.routes.draw do
+  resources :fexaords
+
+
   get "funcionario/index"
 
   get "gerente/index"
   get "gerente/pendentes"
+  get "gerente/fexadas"
 	get "gerente/funcionarios"
 	get "gerente/destroy"
   get "principal/index"

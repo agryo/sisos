@@ -1,0 +1,36 @@
+<h1>Ordes De serviços Fechadas</h1>
+
+<table cellpadding="5" cellspacing="0" class="table">
+  <tr>
+    <th>Cliente</th>
+	<th>ID</th>
+    <th>Maquina</th>
+    <th>Pecas</th>
+    <th>Observacoes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% 
+odd_or_even = 0
+@fexaords.each do |fexaord| 
+odd_or_even = 1 -odd_or_even
+%>
+  <tr valign="top" class="ListLine<%=odd_or_even%>">
+    <td><%= fexaord.ordem.cliente.nome %></td>
+	<td><%= fexaord.ordem.id %></td>
+	<td><%= fexaord.ordem.maquina %></td>
+    <td><%= fexaord.ordem.pecas %></td>
+    <td><%= fexaord.ordem.observacoes %></td>
+
+    <td><%= link_to 'Mostrar', fexaord %></td>
+    <td><%= link_to 'Alterar', edit_fexaord_path(fexaord) %></td>
+    <td><%= link_to 'Apagar Dados', fexaord, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Fexar uma ordem', new_fexaord_path %>

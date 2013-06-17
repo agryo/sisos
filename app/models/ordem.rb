@@ -1,6 +1,7 @@
 class Ordem < ActiveRecord::Base
 
 	 belongs_to :cliente
+	 belongs_to :fexaord
   attr_accessible :maquina, :observacoes, :pecas, :cliente_id
   validates_presence_of :maquina, :pecas, :observacoes, message:"deve ser preenxido"
   validates_length_of :maquina,:in => 2..20 , message:"deve conter de 2 a 20 digitos"

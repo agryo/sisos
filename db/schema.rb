@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130419191222) do
+ActiveRecord::Schema.define(:version => 20130617173705) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -41,6 +41,14 @@ ActiveRecord::Schema.define(:version => 20130419191222) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "fexaords", :force => true do |t|
+    t.integer  "ordem_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "fexaords", ["ordem_id"], :name => "index_fexaords_on_ordem_id"
 
   create_table "ordems", :force => true do |t|
     t.integer  "cliente_id"

@@ -1,0 +1,29 @@
+<a href="/gerente/index" class="btn btn-link" ><b>Voltar</b></a>
+<table cellpadding="5" cellspacing="0" class="table">
+  <tr>
+    <th>Cliente</th>
+	<th>ID</th>
+    <th>Maquina</th>
+    <th>Pecas</th>
+    <th>Observacoes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% 
+odd_or_even = 0 
+@fexaords.each do |fexaord| 
+odd_or_even = 1 -odd_or_even
+%>
+  <tr valign="top" class="ListLine<%=odd_or_even%>">
+  <td><%= fexaord.ordem.cliente.nome%></td>
+    <td><%= fexaord.ordem.id%></td>
+	<td><%= fexaord.ordem.maquina %></td>
+    <td><%= fexaord.ordem.pecas %></td>
+    <td><%= fexaord.ordem.observacoes %></td>
+	
+    
+  </tr>
+<% end %>
+</table>

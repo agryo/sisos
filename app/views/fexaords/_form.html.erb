@@ -1,0 +1,21 @@
+<%= form_for(@fexaord) do |f| %>
+  <% if @fexaord.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@fexaord.errors.count, "error") %> prohibited this fexaord from being saved:</h2>
+
+      <ul>
+      <% @fexaord.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ordem %><br />
+    <%= f.collection_select :ordem_id, Ordem.all, :id,:id  %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

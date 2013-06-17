@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  </br><b>Cliente:</b>
+  <%= @fexaord.ordem.cliente.nome %>
+  </br><b>ID:</b>
+  <%= @fexaord.ordem.id %>
+  </br><b>Maquina:</b>
+  <%= @fexaord.ordem.maquina %>
+  </br><b>pecas:</b>
+  <%= @fexaord.ordem.pecas %>
+  </br><b>Observacoes:</b>
+   <%= @fexaord.ordem.observacoes %>
+</p>
+
+
+<%= link_to 'Alterar', edit_fexaord_path(@fexaord) %> |
+<%= link_to 'Voltar', fexaords_path %>

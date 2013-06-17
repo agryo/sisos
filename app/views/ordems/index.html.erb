@@ -3,6 +3,8 @@
 <table cellpadding="5" cellspacing="0" class="table">
   <tr>
     <th>Cliente</th>
+	<th>ID</th>
+	
     <th>Maquina</th>
     <th>Pecas</th>
     <th>Observacoes</th>
@@ -18,13 +20,14 @@ odd_or_even = 1 -odd_or_even
 %>
   <tr valign="top" class="ListLine<%=odd_or_even%>">
     <td><%= ordem.cliente.nome %></td>
+	<td><%= ordem.id %></td>
 	<td><%= ordem.maquina %></td>
     <td><%= ordem.pecas %></td>
     <td><%= ordem.observacoes %></td>
 	
     <td><%= link_to 'Mostrar', ordem %></br>
     <%= link_to 'Editar', edit_ordem_path(ordem) %></br>
-    <%= link_to 'Fechar Ordem', ordem, method: :delete, data: { confirm: 'A ordem já foi concluida?' } %></br>
+   <%= link_to 'Fechar', new_fexaord_path() %></br>
   </tr>
 <% end %>
 </table>
