@@ -79652,3 +79652,3426 @@ Served asset /principal.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-17 15:25:05 -0300
 Served asset /application.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:16 -0300
+Processing by PrincipalController#index as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "usuarios"[0m
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT "usuarios".* FROM "usuarios" 
+  Rendered principal/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 727ms (Views: 511.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:17 -0300
+Served asset /application.css - 304 Not Modified (121ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /fexaords.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /clientes.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /ordems.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /gerente.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /funcionario.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /principal.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /scaffolds.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /jquery.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (58ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /clientes.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /fexaords.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:18 -0300
+Served asset /funcionario.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:19 -0300
+Served asset /gerente.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:19 -0300
+Served asset /ordems.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:19 -0300
+Served asset /principal.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:19 -0300
+Served asset /application.js - 304 Not Modified (134ms)
+
+
+Started GET "/fexaords/" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:25 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"[0m
+  [1m[35mFexaord Load (0.0ms)[0m  SELECT "fexaords".* FROM "fexaords" 
+  [1m[36m (2.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36m (2.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "clientes"[0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/index.html.erb within layouts/application (783.0ms)
+Completed 200 OK in 1134ms (Views: 981.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /funcionario.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /gerente.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:27 -0300
+Served asset /ordems.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:28 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:28 -0300
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:33 -0300
+Processing by FexaordsController#new as HTML
+  [1m[36mOrdem Load (1.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  Rendered fexaords/_form.html.erb (339.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (384.0ms)
+Completed 200 OK in 692ms (Views: 685.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /gerente.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:34 -0300
+Served asset /fexaords.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:35 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:35 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:35 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:35 -0300
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 15:59:38 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+Completed 500 Internal Server Error in 30ms
+
+NoMethodError (undefined method `fexaord_id' for #<Fexaord id: nil, ordem_id: 9, created_at: nil, updated_at: nil>):
+  app/controllers/fexaords_controller.rb:46:in `create'
+  app/controllers/fexaords_controller.rb:45:in `create'
+
+
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.0ms)
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.0ms)
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (87.0ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:06 -0300
+Processing by FexaordsController#new as HTML
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered fexaords/_form.html.erb (164.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (173.0ms)
+Completed 200 OK in 554ms (Views: 494.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /principal.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /gerente.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /ordems.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /principal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:07 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:11 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+  [1m[36mFexaord Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "fexaords" WHERE "fexaords"."id" IS NULL LIMIT 1[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "fexaords" ("created_at", "ordem_id", "updated_at") VALUES ('2013-06-17 19:00:12.068000', 9, '2013-06-17 19:00:12.068000')
+Redirected to http://localhost:3000/fexaords/3
+Completed 302 Found in 339ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/fexaords/3" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:12 -0300
+Processing by FexaordsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFexaord Load (1.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 3 LIMIT 1[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "clientes"[0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/show.html.erb within layouts/application (410.0ms)
+Completed 200 OK in 588ms (Views: 566.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:13 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:16 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36mFexaord Load (0.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" [0m
+  [1m[35mOrdem Load (2.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  Rendered fexaords/index.html.erb within layouts/application (90.0ms)
+Completed 200 OK in 351ms (Views: 333.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /fexaords.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /ordems.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:18 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started DELETE "/fexaords/3" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:31 -0300
+Processing by FexaordsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "id"=>"3"}
+  [1m[35mFexaord Load (0.0ms)[0m  SELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 3 LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "fexaords" WHERE "fexaords"."id" = 3[0m
+Redirected to http://localhost:3000/fexaords
+Completed 302 Found in 61ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:31 -0300
+Processing by FexaordsController#index as HTML
+  [1m[35mFexaord Load (0.0ms)[0m  SELECT "fexaords".* FROM "fexaords" 
+  [1m[36mOrdem Load (1.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1[0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/index.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 221ms (Views: 210.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:31 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:31 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:31 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:31 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:32 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:00:47 -0300
+
+ActionController::RoutingError (undefined method `id' for :fexaord:Symbol):
+  app/models/fexaord.rb:5:in `Fexaord'
+  app/models/fexaord.rb:1:in `(root)'
+  app/controllers/fexaords_controller.rb:1:in `(root)'
+
+
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:29 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"[0m
+  [1m[35mFexaord Load (0.0ms)[0m  SELECT "fexaords".* FROM "fexaords" 
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "clientes"[0m
+  [1m[35mCliente Load (0.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/index.html.erb within layouts/application (491.0ms)
+Completed 200 OK in 865ms (Views: 779.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:30 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:30 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:30 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:30 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /ordems.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:31 -0300
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Processing by FexaordsController#new as HTML
+  [1m[36mOrdem Load (0.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  Rendered fexaords/_form.html.erb (31.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 191ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /fexaords.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:35 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:35 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:35 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:35 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:35 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:35 -0300
+Served asset /principal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:35 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:37 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+Completed 500 Internal Server Error in 57ms
+
+NoMethodError (undefined method `text?' for nil:NilClass):
+  app/controllers/fexaords_controller.rb:46:in `create'
+  app/controllers/fexaords_controller.rb:45:in `create'
+
+
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.0ms)
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.0ms)
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (100.0ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:02:50 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"10"}, "commit"=>"Create Fexaord"}
+  [1m[36mOrdem Load (0.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 10 LIMIT 1[0m
+Completed 500 Internal Server Error in 37ms
+
+NoMethodError (undefined method `text?' for nil:NilClass):
+  app/controllers/fexaords_controller.rb:46:in `create'
+  app/controllers/fexaords_controller.rb:45:in `create'
+
+
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.0ms)
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+  Rendered C:/jruby-1.7.2/lib/ruby/gems/shared/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.0ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:30 -0300
+Processing by FexaordsController#new as HTML
+  [1m[35m (2.0ms)[0m  SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered fexaords/_form.html.erb (201.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (211.0ms)
+Completed 200 OK in 614ms (Views: 551.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:03:31 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:54 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"[0m
+  [1m[35mFexaord Exists (0.0ms)[0m  SELECT 1 AS one FROM "fexaords" WHERE "fexaords"."id" IS NULL LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "fexaords" ("created_at", "ordem_id", "updated_at") VALUES ('2013-06-17 19:06:54.877000', 9, '2013-06-17 19:06:54.877000')[0m
+Redirected to http://localhost:3000/fexaords/4
+Completed 302 Found in 96ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/fexaords/4" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:54 -0300
+Processing by FexaordsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mFexaord Load (1.0ms)[0m  SELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 4 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36m (2.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "clientes"[0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/show.html.erb within layouts/application (379.0ms)
+Completed 200 OK in 787ms (Views: 750.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:55 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:55 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /funcionario.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /funcionario.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /ordems.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:56 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:58 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36mFexaord Load (2.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" [0m
+  [1m[35mOrdem Load (0.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36mCliente Load (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  Rendered fexaords/index.html.erb within layouts/application (155.0ms)
+Completed 200 OK in 308ms (Views: 290.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /funcionario.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:06:59 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/fexaords/4" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:04 -0300
+Processing by FexaordsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "id"=>"4"}
+  [1m[35mFexaord Load (1.0ms)[0m  SELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 4 LIMIT 1
+  [1m[36mSQL (5.0ms)[0m  [1mDELETE FROM "fexaords" WHERE "fexaords"."id" = 4[0m
+Redirected to http://localhost:3000/fexaords
+Completed 302 Found in 75ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Processing by FexaordsController#index as HTML
+  [1m[35mFexaord Load (0.0ms)[0m  SELECT "fexaords".* FROM "fexaords" 
+  [1m[36mOrdem Load (2.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1[0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/index.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 250ms (Views: 240.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:05 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:06 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ordems" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:35 -0300
+Processing by OrdemsController#index as HTML
+  [1m[36mOrdem Load (1.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  [1m[35mCliente Load (2.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 12 LIMIT 1[0m
+  Rendered ordems/index.html.erb within layouts/application (105.0ms)
+Completed 200 OK in 319ms (Views: 286.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /gerente.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:36 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Processing by FexaordsController#new as HTML
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered fexaords/_form.html.erb (125.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (135.0ms)
+Completed 200 OK in 301ms (Views: 295.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /fexaords.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /ordems.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:42 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /funcionario.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /gerente.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:43 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:51 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+  [1m[36mFexaord Exists (2.0ms)[0m  [1mSELECT 1 AS one FROM "fexaords" WHERE "fexaords"."id" IS NULL LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "fexaords" ("created_at", "ordem_id", "updated_at") VALUES ('2013-06-17 19:07:51.770000', 9, '2013-06-17 19:07:51.770000')
+Redirected to http://localhost:3000/fexaords/5
+Completed 302 Found in 53ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/fexaords/5" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:51 -0300
+Processing by FexaordsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFexaord Load (1.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 5 LIMIT 1[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  Rendered fexaords/show.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 193ms (Views: 163.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /ordems.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:52 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:53 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:53 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:53 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:53 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:53 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:53 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:53 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:55 -0300
+Processing by FexaordsController#index as HTML
+  [1m[35mFexaord Load (0.0ms)[0m  SELECT "fexaords".* FROM "fexaords" 
+  [1m[36mOrdem Load (0.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1[0m
+  [1m[35mCliente Load (2.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/index.html.erb within layouts/application (169.0ms)
+Completed 200 OK in 430ms (Views: 396.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:56 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:56 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:56 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:56 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:56 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:56 -0300
+Served asset /principal.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /gerente.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /principal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:07:57 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started DELETE "/fexaords/5" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:21 -0300
+Processing by FexaordsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "id"=>"5"}
+  [1m[36mFexaord Load (1.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 5 LIMIT 1[0m
+  [1m[35mSQL (3.0ms)[0m  DELETE FROM "fexaords" WHERE "fexaords"."id" = 5
+Redirected to http://localhost:3000/fexaords
+Completed 302 Found in 506ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36mFexaord Load (1.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" [0m
+  [1m[35mOrdem Load (0.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36mCliente Load (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  Rendered fexaords/index.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 227ms (Views: 183.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /funcionario.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:22 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:23 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:23 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:23 -0300
+Served asset /gerente.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:23 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:23 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:23 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:41 -0300
+Processing by FexaordsController#index as HTML
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"
+  [1m[36mFexaord Load (0.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" [0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"
+  [1m[36mOrdem Load (0.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "clientes"
+  [1m[36mCliente Load (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  Rendered fexaords/index.html.erb within layouts/application (364.0ms)
+Completed 200 OK in 636ms (Views: 590.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /funcionario.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:42 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:43 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:43 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:43 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Processing by FexaordsController#new as HTML
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered fexaords/_form.html.erb (46.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 221ms (Views: 212.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Served asset /ordems.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:49 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:50 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:55 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+  [1m[36mFexaord Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "fexaords" WHERE "fexaords"."ordem_id" = 9 LIMIT 1[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered fexaords/_form.html.erb (48.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 274ms (Views: 227.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:55 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:55 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:55 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:55 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:55 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:55 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /principal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:08:56 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:09:59 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+  [1m[36m (2.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"[0m
+  [1m[35mFexaord Exists (0.0ms)[0m  SELECT 1 AS one FROM "fexaords" WHERE "fexaords"."ordem_id" = 9 LIMIT 1
+  [1m[36m (2.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"[0m
+  [1m[35mOrdem Load (2.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered fexaords/_form.html.erb (179.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (188.0ms)
+Completed 200 OK in 702ms (Views: 609.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:00 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:00 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:00 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:00 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:00 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:00 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:00 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /fexaords.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /principal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:01 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:20 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "fexaords"[0m
+  [1m[35mFexaord Load (0.0ms)[0m  SELECT "fexaords".* FROM "fexaords" 
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "ordems"[0m
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "clientes"[0m
+  [1m[35mCliente Load (0.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  Rendered fexaords/index.html.erb within layouts/application (300.0ms)
+Completed 200 OK in 595ms (Views: 542.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:21 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:22 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Processing by FexaordsController#new as HTML
+  [1m[36mOrdem Load (0.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  Rendered fexaords/_form.html.erb (30.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 171ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /fexaords.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /ordems.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:26 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:27 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:27 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:27 -0300
+Served asset /gerente.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:27 -0300
+Served asset /ordems.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:27 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:27 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:29 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"9"}, "commit"=>"Create Fexaord"}
+  [1m[35mFexaord Exists (1.0ms)[0m  SELECT 1 AS one FROM "fexaords" WHERE "fexaords"."ordem_id" = 9 LIMIT 1
+  [1m[36mOrdem Load (1.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  Rendered fexaords/_form.html.erb (54.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 248ms (Views: 190.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:29 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:10:30 -0300
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/gerente/index" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:00 -0300
+Processing by GerenteController#index as HTML
+Completed 401 Unauthorized in 95ms
+
+
+Started GET "/admins/sign_in" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:00 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence' AND name = "admins"
+  Rendered devise/sessions/new.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 282ms (Views: 192.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /funcionario.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /principal.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:01 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/admins/sign_in" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:23 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "admin"=>{"email"=>"admin@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Logar-se"}
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."email" = 'admin@hotmail.com' LIMIT 1[0m
+  [1m[35m (2.0ms)[0m  UPDATE "admins" SET "last_sign_in_at" = '2013-06-11 20:55:25.774000', "current_sign_in_at" = '2013-06-17 19:11:24.352000', "sign_in_count" = 18, "updated_at" = '2013-06-17 19:11:24.363000' WHERE "admins"."id" = 1
+Redirected to http://localhost:3000/gerente/index
+Completed 302 Found in 581ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/gerente/index" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Processing by GerenteController#index as HTML
+  [1m[36mAdmin Load (2.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1[0m
+  [1m[35mOrdem Load (0.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered gerente/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 125ms (Views: 108.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /clientes.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /gerente.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:24 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /fexaords.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /principal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:25 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:29 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36mFexaord Load (1.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" [0m
+  [1m[35mOrdem Load (2.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 9 LIMIT 1
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1[0m
+  Rendered fexaords/index.html.erb within layouts/application (45.0ms)
+  [1m[35mAdmin Load (2.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 188ms (Views: 175.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:29 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:29 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:29 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:29 -0300
+Served asset /gerente.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:29 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:29 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:30 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started DELETE "/fexaords/1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:39 -0300
+Processing by FexaordsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "id"=>"1"}
+  [1m[36mFexaord Load (1.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "fexaords" WHERE "fexaords"."id" = 1
+Redirected to http://localhost:3000/fexaords
+Completed 302 Found in 36ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:39 -0300
+Processing by FexaordsController#index as HTML
+  [1m[36mFexaord Load (0.0ms)[0m  [1mSELECT "fexaords".* FROM "fexaords" [0m
+  Rendered fexaords/index.html.erb within layouts/application (2.0ms)
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 136ms (Views: 129.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /clientes.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /funcionario.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /ordems.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:11:40 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/ordems" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Processing by OrdemsController#index as HTML
+  [1m[36mOrdem Load (1.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  [1m[35mCliente Load (2.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  [1m[36mCliente Load (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 12 LIMIT 1[0m
+  Rendered ordems/index.html.erb within layouts/application (56.0ms)
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 241ms (Views: 226.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:10 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:11 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:11 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:11 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:11 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:11 -0300
+Served asset /principal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:11 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/ordems/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Processing by OrdemsController#new as HTML
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" [0m
+  Rendered ordems/_form.html.erb (40.0ms)
+  Rendered ordems/new.html.erb within layouts/application (54.0ms)
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 198ms (Views: 189.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /fexaords.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:17 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:18 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/clientes" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:25 -0300
+Processing by ClientesController#index as HTML
+  [1m[36mCliente Load (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" [0m
+  Rendered clientes/index.html.erb within layouts/application (31.0ms)
+  [1m[35mAdmin Load (2.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 229ms (Views: 212.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /fexaords.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /clientes.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:26 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:27 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/clientes/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:29 -0300
+Processing by ClientesController#new as HTML
+  Rendered clientes/_form.html.erb (37.0ms)
+  Rendered clientes/new.html.erb within layouts/application (49.0ms)
+  [1m[36mAdmin Load (1.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 188ms (Views: 180.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /clientes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /gerente.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /gerente.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:30 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/clientes" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:56 -0300
+Processing by ClientesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "cliente"=>{"nome"=>"Jose", "cpf"=>"12345678901", "endereco"=>"Rua Aderbal Coelho", "cep"=>"59300000", "cidade"=>"Caico", "telefone"=>"34215050"}}
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "clientes" ("cep", "cidade", "cpf", "created_at", "endereco", "nome", "telefone", "updated_at") VALUES (59300000, 'Caico', 12345678901, '2013-06-17 19:12:56.715000', 'Rua Aderbal Coelho', 'Jose', '34215050', '2013-06-17 19:12:56.715000')
+Redirected to http://localhost:3000/clientes/14
+Completed 302 Found in 71ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/clientes/14" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:56 -0300
+Processing by ClientesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 14 LIMIT 1[0m
+  Rendered clientes/show.html.erb within layouts/application (11.0ms)
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 148ms (Views: 138.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /clientes.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /fexaords.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:12:57 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/clientes" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:01 -0300
+Processing by ClientesController#index as HTML
+  [1m[36mCliente Load (3.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" [0m
+  Rendered clientes/index.html.erb within layouts/application (48.0ms)
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 212ms (Views: 201.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:01 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:01 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /clientes.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /ordems.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:02 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/ordems" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:10 -0300
+Processing by OrdemsController#index as HTML
+  [1m[36mOrdem Load (1.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  [1m[35mCliente Load (0.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 12 LIMIT 1[0m
+  Rendered ordems/index.html.erb within layouts/application (41.0ms)
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 198ms (Views: 186.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /clientes.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /ordems.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /principal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:11 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/ordems/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:16 -0300
+Processing by OrdemsController#new as HTML
+  [1m[36mCliente Load (1.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" [0m
+  Rendered ordems/_form.html.erb (37.0ms)
+  Rendered ordems/new.html.erb within layouts/application (46.0ms)
+  [1m[35mAdmin Load (2.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 206ms (Views: 193.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /principal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /fexaords.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:17 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/ordems" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:58 -0300
+Processing by OrdemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "ordem"=>{"cliente_id"=>"14", "maquina"=>"Iphone", "pecas"=>"cartao de memoria", "observacoes"=>"Almentar capacidade"}}
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "ordems" ("cliente_id", "created_at", "maquina", "observacoes", "pecas", "updated_at") VALUES (14, '2013-06-17 19:13:58.727000', 'Iphone', 'Almentar capacidade', 'cartao de memoria', '2013-06-17 19:13:58.727000')[0m
+Redirected to http://localhost:3000/ordems/11
+Completed 302 Found in 61ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/ordems/11" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:58 -0300
+Processing by OrdemsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mOrdem Load (1.0ms)[0m  SELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 11 LIMIT 1
+  [1m[36mCliente Load (2.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 14 LIMIT 1[0m
+  Rendered ordems/show.html.erb within layouts/application (19.0ms)
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1
+Completed 200 OK in 285ms (Views: 255.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /funcionario.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /fexaords.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:13:59 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/ordems" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:03 -0300
+Processing by OrdemsController#index as HTML
+  [1m[36mOrdem Load (1.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" [0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 11 LIMIT 1
+  [1m[36mCliente Load (2.0ms)[0m  [1mSELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 12 LIMIT 1[0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 14 LIMIT 1
+  Rendered ordems/index.html.erb within layouts/application (70.0ms)
+  [1m[36mAdmin Load (1.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 209ms (Views: 194.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:04 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:04 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:04 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:04 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:04 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:04 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /principal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:05 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/fexaords/new" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Processing by FexaordsController#new as HTML
+  [1m[35mOrdem Load (2.0ms)[0m  SELECT "ordems".* FROM "ordems" 
+  Rendered fexaords/_form.html.erb (27.0ms)
+  Rendered fexaords/new.html.erb within layouts/application (37.0ms)
+  [1m[36mAdmin Load (2.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 188ms (Views: 179.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /fexaords.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /clientes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /funcionario.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /principal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:11 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:19 -0300
+Processing by FexaordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s6I+MnyCkAC4UfkvETGlupkES4BFmtG4IfE5Ipz0JU=", "fexaord"=>{"ordem_id"=>"11"}, "commit"=>"Create Fexaord"}
+  [1m[35mFexaord Exists (1.0ms)[0m  SELECT 1 AS one FROM "fexaords" WHERE "fexaords"."ordem_id" = 11 LIMIT 1
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "fexaords" ("created_at", "ordem_id", "updated_at") VALUES ('2013-06-17 19:14:19.882000', 11, '2013-06-17 19:14:19.882000')[0m
+Redirected to http://localhost:3000/fexaords/6
+Completed 302 Found in 99ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/fexaords/6" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Processing by FexaordsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFexaord Load (2.0ms)[0m  SELECT "fexaords".* FROM "fexaords" WHERE "fexaords"."id" = 6 LIMIT 1
+  [1m[36mOrdem Load (0.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 11 LIMIT 1[0m
+  [1m[35mCliente Load (1.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 14 LIMIT 1
+  Rendered fexaords/show.html.erb within layouts/application (27.0ms)
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 170ms (Views: 160.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /gerente.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /principal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:20 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/fexaords" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Processing by FexaordsController#index as HTML
+  [1m[35mFexaord Load (2.0ms)[0m  SELECT "fexaords".* FROM "fexaords" 
+  [1m[36mOrdem Load (2.0ms)[0m  [1mSELECT "ordems".* FROM "ordems" WHERE "ordems"."id" = 11 LIMIT 1[0m
+  [1m[35mCliente Load (0.0ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 14 LIMIT 1
+  Rendered fexaords/index.html.erb within layouts/application (25.0ms)
+  [1m[36mAdmin Load (1.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 194ms (Views: 183.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /clientes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /fexaords.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /gerente.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ordems.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /ordems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /funcionario.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /principal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clientes.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /clientes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fexaords.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /fexaords.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/funcionario.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /funcionario.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gerente.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /gerente.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ordems.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /ordems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/principal.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /principal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 0:0:0:0:0:0:0:1 at 2013-06-17 16:14:25 -0300
+Served asset /application.js - 304 Not Modified (3ms)
